@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Searchboxpage {
 	     WebDriver driver;
-	   
+	   driver.get("https://www.agoda.com/");
 	     @FindBy(xpath="//*[@id=\"home-react-root\"]/main/div/div[1]/div/div[1]/button")
 			WebElement popup;
 	//SEARCHBOX
